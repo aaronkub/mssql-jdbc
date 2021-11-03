@@ -150,6 +150,7 @@ dependencies {
 			'com.h2database:h2:1.4.200'
 }
 
+// gradle clean build shadowJar -PbuildProfile=jre8 -x test
 shadowJar {
     mergeServiceFiles()
     zip64 true
